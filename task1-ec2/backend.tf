@@ -3,7 +3,7 @@
 # Backend blocks can't use variables, so the values are written directly.
 terraform {
   backend "s3" {
-    bucket         = "pradeep-tfstate-379959319021""
+    bucket         = "pradeep-tfstate-379959319021"
     key            = "task1-ec2/terraform.tfstate"
     region         = "ap-south-1"
     dynamodb_table = "terraform-state-lock"
